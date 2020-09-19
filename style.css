@@ -43,25 +43,23 @@ h2 {
 .container {
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 50px auto;
-    margin-right: 250px;
+    margin: 50px auto ;
+    align-self: center;
+    margin-left: 250px;
 }
 
 .card {
     width: 300px;
     height: 220px;
     text-align: justify;
-    /* margin: 32px auto; */
     box-sizing: border-box;
     box-shadow: 2px 12px 18px 5px hsl(0, 6%, 91%);
     padding: 20px 20px;
     margin: 50px auto;
     border-radius: 5px;
-    position: static;
+    /* position: static; */
 }
-
 img {
     width: 40px;
     padding-top: 30px;
