@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+body {
+    /* font-family: "Poppins", serif; */
+    font-family: "Poppin", serif;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    font-family: "Poppins";
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+    color: hsl(229, 6%, 66%);
+}
+
+h2 {
+    font-weight: 600px;
+    font-size: 2rem;
+    line-height: 2px;
+    color: hsl(234, 12%, 34%);
+}
+
+.para {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.Feature {
+    margin: 70px auto 0px;
+    width: 40%;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    margin-right: 250px;
+}
+
+.card {
+    width: 300px;
+    height: 220px;
+    text-align: justify;
+    /* margin: 32px auto; */
+    box-sizing: border-box;
+    box-shadow: 2px 12px 18px 5px hsl(0, 6%, 91%);
+    padding: 20px 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: static;
+}
+
+img {
+    width: 40px;
+    padding-top: 30px;
+    float: right;
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    align-self: center;
+    /* margin-top: 200px; */
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+.team {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    /* margin-top: -100px; */
+    position: relative;
+    bottom: 50px;
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    /* margin-top: 440px; */
+    position: relative;
+    top: 200px;
+    right: 300px;
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+    right: 250px;
+    top: 100px;
+}
+
+@media only screen and (max-width:900px) {
+    header h1 h2 {
+        font-family: "Poppins";
+        color: hsl(234, 12%, 34%);
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .para {
+        margin: auto;
+        padding-top: 5px;
+        font-size: 12.2px;
+    }
+
+    .Feature {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .container {
+        display: block;
+        margin: auto;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .card {
+        width: 280px;
+        height: 200px;
+        margin: 70px auto;
+    }
+
+    .supervisor {
+        position: static;
+    }
+
+    .team {
+        position: static;
+        margin-top: -50px;
+    }
+
+    .calculator {
+        position: static;
+        margin-top: -50px;
+    }
+
+    .karma {
+        position: static;
+        margin-top: -50px;
+    }
+
+    img {
+        width: 35px;
+        margin-top: -25px;
+        float: right;
+    }
+}
